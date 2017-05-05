@@ -1,0 +1,109 @@
+/*
+
+	DROPDOWN NAVIGATION MENU
+*/
+body {
+	padding: 0;
+	margin: 0;
+	overflow-y: scroll;
+	font-family: Arial;
+	font-size: 18px;
+}
+
+#nav { /* Background */
+	background = color: white;
+	border: 5px solid black;
+} 
+#nav wrapper { /* Container */
+	width: 960px;
+	margin: 0 auto;
+	text-align: auto;
+
+}
+#nav h2 { /* Website Header (size2) / Bussiness Name */
+	position: relative;
+	margin: auto;
+	left: 300px;
+	top: 20px;
+
+}
+#nav ul { /* Find Us + Contact Us + About Us (Primary / Parent List) */
+	list-style-type: none;
+	font-size: 26px;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+#nav ul li {
+	display: inline-block;
+
+}
+#nav ul li:hover { 
+	background-color: darkgreen;
+}
+#nav ul li img {
+	vertical-align: middle;
+	padding-left: 5px;
+	
+
+}
+#nav ul li a,visited {
+	color: black;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+#nav ul li a:hover { /* First List when mouse-over */
+	color: black;
+	text-color: black;
+	text-decoration: none;
+}
+#nav ul li:hover ul {
+	display: block;
+}
+#nav ul ul {
+	display: none;
+	position: absolute;
+	background-color: white;
+	border: 5px solid black;
+	border-top: 0;
+	margin-left: -5px;
+	
+}
+#nav ul ul li {
+	display: block;
+}
+#nav ul ul li a {
+	color: green;
+}
+#nav ul ul li a:hover { 
+	color: darkgreen;
+}
+
+/*
+
+Search Bar
+
+*/
+#SearchParentDiv {
+	position: fixed;
+	left: 1000px;
+}
+#search {
+	width: 200px;
+	padding: 7px;
+	border: 1px solid #333;
+	
+}
+#submit {
+	padding: 7px;
+	background-color: red;
+	border: 1px solid black;
+	color: white;
+	margin-left: -5px;
+	
+}
+#submit:hover {
+	background: #333;
+	transition: all 0.50s;
+}
