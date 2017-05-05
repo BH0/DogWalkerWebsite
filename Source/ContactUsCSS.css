@@ -1,0 +1,239 @@
+
+body {
+	background-color: darkgreen;
+}
+
+/* 
+
+	ContactUs Page 
+
+*/
+
+.PageTitle {
+	border: 5px solid black;
+	width: 350px;
+	position: relative;
+	background-color: white;
+	left: 425px;
+	top: 10px;
+	text-align: center;
+	z-index: -1;
+}
+
+.CallUs {
+	border: 5px solid black;
+	width: 400px;
+	position: relative;
+	background-color: white;
+	left: 400px;
+	top: 10px;
+	text-align: center;
+	z-index: -1;
+}
+
+/* Contact Form */
+.containter {
+	max-width: 400px;
+	width: 100%
+	margin: 0 auro;
+	position: zelative;
+}
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+#contact h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}	
+#contact h4 {
+	margin:5px 0 15px;
+	display: block;
+	font-size: 13px;
+}
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact
+textarea {
+	width:100%;
+	border: 1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+#contact textarea {
+	height:100px;
+	max-width:100%;
+	resize:none;
+}
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background: darkgreen;
+	color: black;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+#contact button[type="submit"]:hover {
+	background:#09C;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+.SocialIcons {
+	border: 5px solid black;
+	width: 400px;
+	position: relative;
+	background-color: white;
+	left: 400px;
+	bottom: 20px;
+	text-align: center;
+}
+
+
+/*
+	DROPDOWN NAVIGATION MENU
+*/
+/*
+body {
+	padding: 0;
+	margin: 0;
+	overflow-y: scroll;
+	font-family: Arial;
+	font-size: 18px;
+}
+*/
+
+#nav { /* Background */
+	background-color: white;
+	border: 5px solid black;
+} 
+#nav wrapper { /* Container */
+	width: 960px;
+	margin: 0 auto;
+	text-align: auto;
+
+}
+#nav h2 { /* Website Header (size2) / Bussiness Name */
+	position: relative;
+	margin: auto;
+	left: 300px;
+	top: 20px;
+
+}
+#nav ul { /* Find Us + Contact Us + About Us (Primary / Parent List) */
+	list-style-type: none;
+	font-size: 26px;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+#nav ul li {
+	display: inline-block;
+
+}
+#nav ul li:hover { 
+	background-color: darkgreen;
+}
+#nav ul li img {
+	vertical-align: middle;
+	padding-left: 5px;
+	
+
+}
+#nav ul li a,visited {
+	color: black;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+#nav ul li a:hover { /* First List when mouse-over */
+	color: black;
+	text-color: black;
+	text-decoration: none;
+}
+#nav ul li:hover ul {
+	display: block;
+}
+#nav ul ul {
+	display: none;
+	position: absolute;
+	background-color: white;
+	border: 5px solid black;
+	border-top: 0;
+	margin-left: -5px;
+	
+}
+#nav ul ul li {
+	display: block;
+}
+#nav ul ul li a {
+	color: green;
+}
+#nav ul ul li a:hover { 
+	color: darkgreen;
+}
+
+/*
+
+Search Bar
+
+*/
+#SearchParentDiv {
+	position: absolute;
+	left: 1000px;
+}
+#search {
+	width: 200px;
+	padding: 7px;
+	border: 1px solid #333;
+	
+}
+#submit {
+	padding: 7px;
+	background-color: red;
+	border: 1px solid black;
+	color: white;
+	margin-left: -5px;
+	
+}
+#submit:hover {
+	background: #333;
+	transition: all 0.50s;
+}
+
